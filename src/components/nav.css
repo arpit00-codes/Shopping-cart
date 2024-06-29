@@ -1,0 +1,9 @@
+.custom-container1 {
+    display: flex;
+    align-items: center; /* items-center */
+    justify-content: space-between; /* justify-between */
+    height: 5rem; /* h-20, which is 5rem or 80px */
+    max-width: 96rem; /* max-w-6xl, which is 96rem or 1536px assuming the base unit is 1rem = 16px */
+    margin: 0 auto; /* mx-auto */
+  }
+  

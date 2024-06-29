@@ -1,0 +1,35 @@
+.container {
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* default: 1 column */
+    gap: 10px 20px; /* row-gap: 10px, column-gap: 20px */
+    max-width: 6xl; /* Use a specific max-width value, e.g., 96rem (assuming 1rem = 16px) */
+    margin: 20px;
+    padding: 8px; /* Assuming p-2 = 0.5rem */
+  }
+  
+ /* Default for smaller screens and up to 639px */
+.container {
+    display: grid;
+    grid-template-columns: 1fr; /* 1 column by default */
+    gap: 15px; /* Adjust as needed */
+  }
+  
+  @media (min-width: 640px) and (max-width: 767px) { /* 640px to 767px */
+    .container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) { /* 768px to 1023px */
+    .container {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    }
+  }
+  
+  @media (min-width: 1024px) { /* 1024px and above */
+    .container {
+      grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    }
+  }
+  

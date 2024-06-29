@@ -1,0 +1,11 @@
+.custom-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem; /* p-5 in TailwindCSS, which is 1.25rem or 20px */
+    background-color: #E0E7FF; /* bg-violet-200 in TailwindCSS */
+    margin-top: 0.5rem; /* mt-2 in TailwindCSS, which is 0.5rem or 8px */
+    margin-bottom: 0.5rem; /* mb-2 in TailwindCSS, which is 0.5rem or 8px */
+    border-radius: 0.75rem; /* rounded-xl in TailwindCSS, which is 0.75rem or 12px */
+  }
+  
