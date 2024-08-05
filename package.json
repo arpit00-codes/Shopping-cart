@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Arpit Singh",
-  "license": "MIT",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
